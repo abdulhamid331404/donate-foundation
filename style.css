@@ -34,6 +34,7 @@ h1{
 .donate-info{
     text-align: center;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 .donate-btn{
  margin-left: 550px;
@@ -101,10 +102,18 @@ h1{
 }
 .half-width{
     margin-top: 50px;
-    padding: 5px;
 }
 .half-width img{
     width: 100%;
+}
+.donate-attention{
+    padding: 10px;
+}
+.donate-attention h1{
+    font-size: 40px;
+}
+.donate-img{
+    height: 75%;;
 }
 .donars-words{
     height: 200px;
@@ -112,8 +121,8 @@ h1{
     border-radius: 10px;
 }
 span{
-    font-size: 30px;
-    margin-left: 5%;
+    font-size: 20px;
+    margin-left: 2%;
 }
 .donar-motivate{
     text-align: center;
@@ -121,15 +130,16 @@ span{
 }
 .email-subscribe{
     height: 150px;
-    width: 100%;
+    width: 75%;
     background-color: antiquewhite;
     text-align: center;
     margin-bottom: 80px;
+    margin: 0 auto;
 }
 .input-email{
     font-size: 20px;
     padding: 10px;
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.249);
     color: #090117;
     border-radius: 7px;
     margin-top: 53px;
@@ -149,8 +159,17 @@ span{
     color: blue;
     text-align: center;
 }
+footer{
+    margin-top: 75px;
+}
 .footer-text{
     padding: 25px;
+}
+.footer-text p{
+    color: white;
+}
+.footer-text a{
+    color: white;
 }
 .amount-taka{
     border: none;
